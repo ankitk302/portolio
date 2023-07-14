@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ankit- Python Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(4, 4, 48);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(16, 16, 51);
+      }
+      nav ul {
+        display: flex;
+        justify-content: centre;
+      }
+
+      nav ul li {
+        list-style: none;
+        display: flex;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+      }
+      nav ul li a:hover {
+        color: rgb(99, 85, 223);
+        font-size: 1.01rem;
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        margin: 20px 0;
+        align-items: center;
+        
+      }
+      .leftSection {
+       font-size: 2rem;
+       margin-bottom: 174px;
+      }
+      .rightSection img{
+        width: 500px;
+      }
+      
+    .purple {
+         color: rgb(177, 142, 209);
+    }
+    #element{
+        color: rgb(173, 155, 202);
+    }
+      .text-grey{
+        color: grey;
+       
+      }
+       hr{
+        border: 0px;
+        height: 1px;
+        background-color: rgb(99, 85, 223);
+        margin: 34px 42px;
+      }
+      .secondsection span{
+      margin: 42px;
+      }
+      .secondsection h1{
+        margin: 42px;
+        font-size: 1.5rem;
+        margin-top: 8px
+      }
+      section .box {
+        background: rgb(208, 208, 211);
+        height: 1px;
+        margin: 45px;
+        margin: 56px 0;
+        display: flex;
+      }
+      .secondsection .vertical{
+        background-color: white;
+        height: 93px;
+        width: 1px;
+        margin: 0 100px;
+      }
+      .image-top{
+        width: 12px;
+        position: relative;
+        top: -35px;
+      }
+      .vertical-title{
+        position: relative;
+        top: 65px;
+        left: -22px;
+      }
+      .vertical-des{
+        position: relative;
+        top: 70px;
+        font-size: 11px;
+        color: #9797cd;
+        left: -12px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Ankit'portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">Education details</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">contact Me</a></li>
+        </a>
+        </a>
+        </a>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hello! 
+          <div>My name is <span class="purple">Ankit kashyap </span></div> 
+        <div> and i am a python Developer </div>
+        <span id="element"></span>
+
+        </div>
+       
+        <div class="rightSection">
+          <img src="bg.png" alt="" />
+        </div>
+      </section>
+      <hr>
+      <section class="secondsection">
+      <span class="text-grey">what i have done sofar</span>
+      <h1>Projects</h1>
+      <div class="box">
+        <div class="vertical">
+            <img class="image-top" src="bg.png" alt="">
+              <div class="vertical-title">portfolio</div>
+                <div class="vertical-des">Lorem, ipsum dolor.
+
+          </div>
+        </div>
+        <div class="vertical">
+            <img class="image-top" src="bg.png" alt="">
+              <div class="vertical-title">portfolio</div>
+                <div class="vertical-des">Lorem, ipsum dolor.
+
+          </div>
+        </div>
+        <div class="vertical">
+            <img class="image-top" src="bg.png" alt="">
+              <div class="vertical-title">portfolio</div>
+                <div class="vertical-des">Lorem, ipsum dolor.
+
+          </div>
+        </div>
+        <div class="vertical">
+            <img class="image-top" src="bg.png" alt="">
+              <div class="vertical-title">portfolio</div>
+                <div class="vertical-des">Lorem, ipsum dolor.
+
+          </div>
+        </div>
+        
+      </div>
+
+      </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Django Developer', 'with knowledge of front development'],
+          typeSpeed: 20,
+        });
+      </script>
+    </body>
+  </body>
+</html>
